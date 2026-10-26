@@ -1,0 +1,30 @@
+# Environment variables & API keys
+.env
+backend/.env
+*.env
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+*.log
+build/
+dist/
+*.egg-info/
+
+# Audio temp recordings
+*.webm
+*.mp3
+*.wav
+
+# OS & Editor files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
